@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./soporte/style.css">
+    <link rel="stylesheet" href="../soporte/style.css">
     <link rel="stylesheet" href="./apps/apps.css">
     
     <title>CampersEngine</title>
@@ -12,12 +12,28 @@
 <body>
 
 <nav>
-    <section class="container1">
-        <img id="logo" src="./images/logoWhite.png" alt="">
+    <section class="container1" style="height: 100px; width: auto;">
+        <img id="logo" src="../images/logoWhite.png" alt="">
+        <a class="alink" href="../index.html">Inicio</a>
+        <a class="alink" href="../servicios/index.html">Servicios</a>
+        <a class="alink" href="../soporte/index.html">Soporte</a>
     </section>
 </nav>
 
+<div class="FAQ">
+    <h1>Preguntas más frecuentes</h1>
+</div>
 
-<script src="./soporte/index.js"></script>
-<script src="./js/db.js"></script>
+<div class="accordion">
+    <p>¿Qué servicios ofrece CAMPUS?</p>
+</div>
+<div class="accordion">
+    <p>¿Estos servicios y zonas manejan algun tipo de horario? Y si es así ¿Cómo se distribuyen?</p>
+</div>
+<div class="accordion">
+    <p>¿Puedo usar o solicitar estos servicios en cualquier momento?</p>
+</div>
+
+<script src="../soporte/index.js"></script>
+<script src="../js/db.js"></script>
 </body>
